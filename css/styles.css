@@ -27,7 +27,6 @@
 .header-contacts {
     list-style-type: none;
     text-decoration: none;
-    display: flex; 
     margin: 0;
     padding: 0;
     font-family: inherit;
@@ -63,18 +62,15 @@
 }
 
 .header {
-    display: flex;
     padding: 24px 215px;
     align-items: center;
     height: 100%;
     background-color: white;
-    justify-content: space-between;
 }
 
 .main-background{
     background: var(--baner-color);
     height: 600px;
-    display: flex;
 }
 
 .title{
@@ -86,7 +82,6 @@
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    display: flex;
 }
 
 .main-background-content{
@@ -121,7 +116,6 @@
 .advances-list{
     list-style-type: none;
     width: 100%; 
-    display: flex;  
     padding: 0;
     margin-bottom: 0;
 }
@@ -171,9 +165,7 @@
 
 .our-occupation-pictures{
     list-style-type: none;
-    display: flex;
     padding: 50px 215px 94px 215px;
-    justify-content: space-between;
     margin-bottom: 0;
 }
 
@@ -184,8 +176,6 @@
 
 .our-team-content{
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
     padding-left: 0;
 }
 
@@ -282,8 +272,6 @@ padding-left: 215px;
 
 .button-portfolio-list{
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 25px 512px ;
 }
@@ -391,7 +379,6 @@ padding-left: 215px;
     padding: 15px 215px;
     list-style-type: none;
     column-count: 3;
-    justify-content: space-between;
     align-content: center;
 }
 
