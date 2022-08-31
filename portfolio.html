@@ -4,24 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@500&display=swap"
-      rel="stylesheet"
-    />
-    <title>Портфоліо</title>
+    <title>Студія</title>
   </head>
-  <body>
+  <body class="body">
     <header class="header">
-      <a href="#" class="header-logo">
+      <a href="index.html" class="header-logo">
         <span class="header-logo-web">Web</span>
         Studio
       </a>
@@ -38,108 +32,97 @@
       </ul>
     </header>
     <main>
-      <div class="button-portfolio">
+      <section class="portfolio-page">
+        <h1 class="portfolio-page-title">Портфоліо</h1>
         <ul class="button-portfolio-list">
           <li>
-            <button
-              type="button"
-              onclick="window.location.href = '#';"
-              class="button-portfolio-link"
-            >
-              Усі
-            </button>
+            <button type="button" class="button-portfolio-link">Усі</button>
           </li>
           <li>
-            <button
-              type="button"
-              onclick="window.location.href ='#';"
-              class="button-portfolio-link-sites"
-            >
-              Веб-сайти
-            </button>
+            <button type="button" class="button-portfolio-link-sites">Веб-сайти</button>
           </li>
           <li>
-            <button
-              type="button"
-              onclick="window.location.href = '#';"
-              class="button-portfolio-link-apps"
-            >
-              Додатки
-            </button>
+            <button type="button" class="button-portfolio-link-apps">Додатки</button>
           </li>
           <li>
-            <button
-              type="button"
-              onclick="window.location.href = '#';"
-              class="button-portfolio-link-design"
-            >
-              Дизайн
-            </button>
+            <button type="button" class="button-portfolio-link-design">Дизайн</button>
           </li>
           <li>
-            <button
-              type="button"
-              onclick="window.location.href = '#';"
-              class="button-portfolio-link-marketing"
-            >
-              Маркетинг
-            </button>
+            <button type="button" class="button-portfolio-link-marketing">Маркетинг</button>
           </li>
         </ul>
-      </div>
-      <section class="portfolio">
-        <ul class="porfolio-cards-block">
-          <li class="portfolio-examples-card">
-            <img src="images/1web-site.jpg" alt="web-site" width="370" height="294" />
-            <h3 class="portfolio-name">Технокряк</h3>
-            <p class="type-of-project">Веб-сайт</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/2designe.jpg" alt="design" width="370" height="294" />
-            <h3 class="portfolio-name">Постер New Orlean vs Golden Star</h3>
-            <p class="type-of-project">Дизайн</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/3app.jpg" alt="app" width="370" height="294" />
-            <h3 class="portfolio-name">Ресторан Seafood</h3>
-            <p class="type-of-project">Додаток</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/4heaphone.jpg" alt="headphone" width="370" height="294" />
-            <h3 class="portfolio-name">Проєкт Prime</h3>
-            <p class="type-of-project">Маркетинг</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/5app.jpg" alt="app" width="370" height="294" />
-            <h3 class="portfolio-name">Проєкт Boxes</h3>
-            <p class="type-of-project">Додаток</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/6web-site.jpg" alt="web-site" width="370" height="294" />
-            <h3 class="portfolio-name">Inspiration has no Borders</h3>
-            <p class="type-of-project">Веб-сайт</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/7designe.jpg" alt="design" width="370" height="294" />
-            <h3 class="portfolio-name">Видання Limited Edition</h3>
-            <p class="type-of-project">Дизайн</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/8marketing.jpg" alt="marketing" width="370" height="294" />
-            <h3 class="portfolio-name">Проєкт LAB</h3>
-            <p class="type-of-project">Маркетинг</p>
-          </li>
-          <li class="portfolio-examples-card">
-            <img src="images/9app.jpg" alt="app" width="370" height="294" />
-            <h3 class="portfolio-name">Growing Business</h3>
-            <p class="type-of-project">Додаток</p>
-          </li>
-        </ul>
+        <section class="portfolio">
+          <ul class="porfolio-cards-block">
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/1web-site.jpg" alt="web-site" width="370" height="294" />
+                <h2 class="portfolio-name">Технокряк</h2>
+                <p class="type-of-project">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/2designe.jpg" alt="design" width="370" height="294" />
+                <h2 class="portfolio-name">Постер New Orlean vs Golden Star</h2>
+                <p class="type-of-project">Дизайн</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/3app.jpg" alt="app" width="370" height="294" />
+                <h2 class="portfolio-name">Ресторан Seafood</h2>
+                <p class="type-of-project">Додаток</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/4heaphone.jpg" alt="headphone" width="370" height="294" />
+                <h2 class="portfolio-name">Проєкт Prime</h2>
+                <p class="type-of-project">Маркетинг</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/5app.jpg" alt="app" width="370" height="294" />
+                <h2 class="portfolio-name">Проєкт Boxes</h2>
+                <p class="type-of-project">Додаток</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/6web-site.jpg" alt="web-site" width="370" height="294" />
+                <h2 class="portfolio-name">Inspiration has no Borders</h2>
+                <p class="type-of-project">Веб-сайт</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/7designe.jpg" alt="design" width="370" height="294" />
+                <h2 class="portfolio-name">Видання Limited Edition</h2>
+                <p class="type-of-project">Дизайн</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/8marketing.jpg" alt="marketing" width="370" height="294" />
+                <h2 class="portfolio-name">Проєкт LAB</h2>
+                <p class="type-of-project">Маркетинг</p>
+              </a>
+            </li>
+            <li class="portfolio-examples-card">
+              <a href="#" class="portfolio-cards-link">
+                <img src="images/9app.jpg" alt="app" width="370" height="294" />
+                <h2 class="portfolio-name">Growing Business</h2>
+                <p class="type-of-project">Додаток</p>
+              </a>
+            </li>
+          </ul>
+        </section>
       </section>
     </main>
     <footer>
       <div class="footer-content">
-        <a href="#" class="home-logo">
+        <a href="index.html" class="home-logo">
           <span class="header-logo-web">Web</span>
           Studio
         </a>

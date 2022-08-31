@@ -1,13 +1,7 @@
 :root{
     --primary-color: #2196F3;
-}
-
-:root{
-    --background-color: ##FFFFFF;
-}
-
-:root{
     --baner-color: #2F303A;
+    --background-color: ##FFFFFF;
 }
 
 .body{
@@ -25,7 +19,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.2;
     word-spacing: -7px;
 }
 
@@ -36,17 +30,16 @@
     display: flex; 
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,2px;
     letter-spacing: 0.02em;
 }
 
 .header-nav {
     text-decoration: inherit;
-    color: black;
+    color: inherit;
     margin: 0 25px;
 }
 
@@ -57,7 +50,7 @@
 
 .header-mail,
 .header-phone {
-    color: black;
+    color: #757575;
     text-decoration: none;
     margin: 0 25px;
 }
@@ -86,11 +79,10 @@
 
 .title{
     color: white;
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: inherit;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -109,19 +101,19 @@
     background: var(--primary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     color: white;
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,9;
     cursor: pointer;
 }
 
 .advances-title{
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.86;
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -145,24 +137,21 @@
 }
 
 .advances-descriptions{
-    font-family: 'Roboto', sans-serif;
-    
-    ;
+    font-family: inherit;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.01em;
     color: #757575;
 }
 
 .advances-list-title{
-    font-family: 'Roboto', sans-serif;
-        
-        font-weight: 700;
-        font-size: 14px;
-        line-height: 16px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        color: inherit;
+    font-family: inherit;    
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: inherit;
 }
 
 .our-occupation{
@@ -170,11 +159,10 @@
 }
 
 .subtitle{
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,7;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
@@ -202,11 +190,10 @@
 }
 
 .subtitle{
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,7;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
@@ -223,22 +210,20 @@
 }
 
 .our-team-workers{
-    font-family: 'Roboto', sans-serif;
-    
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,9;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
 }  
 
 .career{
-    font-family: 'Roboto', sans-serif;
-    
-    ;
+    font-family: inherit;
+    font-weight: 400;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,9;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -253,7 +238,7 @@
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 31px;
+line-height: 1,2;
 text-decoration: none;
 color: #FFFFFF;
 word-spacing: -5px;
@@ -261,10 +246,10 @@ padding-left: 215px;
 }
 
 .footer-adress{
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
@@ -275,13 +260,22 @@ padding-left: 215px;
     padding-left: 215px;
 }
 
+.footer-mail:hover,
+.footer-mail:focus,
+.footer-phone:hover,
+.footer-phone:focus,
+.footer-adress:hover,
+.footer-adress:focus{
+    color: var(--primary-color);
+}
+
 .footer-mail,
 .footer-phone{
     text-decoration: none;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-style: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -291,7 +285,7 @@ padding-left: 215px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 512px 25px 512px;
+    padding: 25px 512px ;
 }
 
 .button-portfolio-link{
@@ -300,10 +294,10 @@ padding-left: 215px;
     background: #F5F4FA;
     width: 73px;
     height: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,6;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
@@ -312,10 +306,10 @@ padding-left: 215px;
 .button-portfolio-link-sites{
     width: 125px;
     height: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,6;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
@@ -325,10 +319,10 @@ padding-left: 215px;
 }
 
 .button-portfolio-link-apps{
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,6;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
@@ -342,10 +336,10 @@ padding-left: 215px;
 .button-portfolio-link-design{
     width: 103px;
     height: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,6;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
@@ -357,10 +351,10 @@ padding-left: 215px;
 .button-portfolio-link-marketing{
     width: 130px;
     height: 38px;
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,6;
     text-align: center;
     letter-spacing: 0.03em;
     color: inherit;
@@ -403,19 +397,28 @@ padding-left: 215px;
 
 
 .portfolio-name{
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;
-    color: #212121;
+    color: inherit;
 }
 
 .type-of-project{
-    font-family: 'Roboto', sans-serif;
+    font-family: inherit;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,9;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
+.portfolio-page-title{
+    visibility: hidden;
+    margin: 0;
+}
+
+.portfolio-cards-link{
+    text-decoration: none;
+    color: inherit;
+}
