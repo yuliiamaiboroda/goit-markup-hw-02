@@ -4,7 +4,7 @@
     --background-color: ##FFFFFF;
 }
 
-.body{
+body{
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
@@ -29,10 +29,9 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
-    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
-    line-height: 1,2px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
@@ -75,10 +74,9 @@
 
 .title{
     color: white;
-    font-family: inherit;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,36;
+    line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
@@ -96,16 +94,14 @@
     background: var(--primary-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: inherit;
     color: white;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
     cursor: pointer;
 }
 
 .advances-title{
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.86;
@@ -131,21 +127,18 @@
 }
 
 .advances-descriptions{
-    font-family: inherit;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.01em;
     color: #757575;
 }
 
-.advances-list-title{
-    font-family: inherit;    
+.advances-list-title{   
     font-weight: 700;
     font-size: 14px;
-    line-height: 1,14;
+    line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: inherit;
 }
 
 .our-occupation{
@@ -153,13 +146,11 @@
 }
 
 .subtitle{
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,7;
+    line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;
-    color: inherit;
     margin-top: 0;
 }
 
@@ -180,13 +171,11 @@
 }
 
 .subtitle{
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1,7;
+    line-height: 1.7;
     text-align: center;
     letter-spacing: 0.03em;
-    color: inherit;
 }
 
 .our-team-card{
@@ -200,20 +189,17 @@
 }
 
 .our-team-workers{
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
-    color: inherit;
 }  
 
 .career{
-    font-family: inherit;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
     text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
@@ -228,7 +214,7 @@
 font-family: 'Raleway';
 font-weight: 700;
 font-size: 26px;
-line-height: 1,2;
+line-height: 1.2;
 text-decoration: none;
 color: #FFFFFF;
 word-spacing: -5px;
@@ -236,10 +222,9 @@ padding-left: 215px;
 }
 
 .footer-adress{
-    font-family: inherit;
     font-style: normal;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: #FFFFFF;
     text-decoration: none;
@@ -262,10 +247,9 @@ padding-left: 215px;
 .footer-mail,
 .footer-phone{
     text-decoration: none;
-    font-family: inherit;
     font-style: normal;
     font-size: 14px;
-    line-height: 1,7;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -280,85 +264,17 @@ padding-left: 215px;
     border: none;
     color: inherit;
     background: #F5F4FA;
-    width: 73px;
     height: 38px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1,6;
+    line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
-    color: inherit;
 }
 
-.button-portfolio-link-sites{
-    width: 125px;
-    height: 38px;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: inherit;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-}
 
-.button-portfolio-link-apps{
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: inherit;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-    width: 112px;
-    height: 38px;
-}
 
-.button-portfolio-link-design{
-    width: 103px;
-    height: 38px;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: inherit;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-}
-
-.button-portfolio-link-marketing{
-    width: 130px;
-    height: 38px;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1,6;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: inherit;
-    background: #F5F4FA;
-    border-radius: 4px;
-    border: none;
-}
-
-.button-portfolio-link-marketing:hover,
-.button-portfolio-link-marketing:focus,
-.button-portfolio-link-design:hover,
-.button-portfolio-link-design:focus,
-.button-portfolio-link-apps:focus,
-.button-portfolio-link-apps:hover,
-.button-portfolio-link-sites:hover,
-.button-portfolio-link-sites:focus,
 .button-portfolio-link:hover,
 .button-portfolio-link:focus{
     color: white;
@@ -369,8 +285,6 @@ padding-left: 215px;
 
 .portfolio-examples-card{
     width: 370px;
-    height: 404px;
-    border: 1px solid #EEEEEE;
     background: var(--background-color);
     margin: 0 15px 30px 15px;
 }
@@ -384,28 +298,30 @@ padding-left: 215px;
 
 
 .portfolio-name{
-    font-family: inherit;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    color: inherit;
 }
 
 .type-of-project{
-    font-family: inherit;
     font-size: 16px;
-    line-height: 1,9;
+    line-height: 1.9;
     letter-spacing: 0.03em;
     color: #757575;
 }
 
 .portfolio-page-title{
-    visibility: hidden;
+    text-align: center;
     margin: 0;
 }
 
 .portfolio-cards-link{
     text-decoration: none;
     color: inherit;
+}
+
+.active-header,
+.active-portfolio{
+    color: var(--primary-color);
 }
